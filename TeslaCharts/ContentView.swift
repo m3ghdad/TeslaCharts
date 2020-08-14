@@ -85,7 +85,7 @@ struct BarChart: View {
                 Capsule().frame(width:30, height: value)
                     .foregroundColor(Color(#colorLiteral(red: 1, green: 0.5450980392, blue: 0.5450980392, alpha: 1)))
             }
-            Text("Su").padding(.top, 8).foregroundColor(Color.white)
+            Text("Su").padding(.top, 8).foregroundColor(Color("title"))
         }
     }
 }
